@@ -1,6 +1,7 @@
 # Summary
 
-- [Groovy](./index.md)
+- [Home](./index.md)
+- [Groovy](./groovy.md)
   - [Hello World in Groovy](./groovy-hello-world.md)
   - [Groovy: read from console (STDIN, keyboard)](./groovy-read-from-stdin.md)
   - [Groovy value types](./groovy-types.md)
