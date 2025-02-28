@@ -1,16 +1,4 @@
----
-title: "Groovy: JSON - reading and writing"
-timestamp: 2018-08-02T08:30:01
-tags:
-  - JSON
-  - JsonSlurper
-  - parseText
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
+# Groovy: JSON - reading and writing
 
 
 [JSON](/json) is one of the most popular language-independent formats for data serialization.
@@ -28,7 +16,9 @@ to parse JSON strings.
 
 If we have JSON string in a Groovy variable we can parse it to become a Groovy map:
 
-{% include file="examples/groovy/parsing_json.groovy" %}
+```groovy
+{{#include examples/groovy/parsing_json.groovy }}
+```
 
 ## Creating JSON string
 
@@ -37,16 +27,22 @@ If we have JSON string in a Groovy variable we can parse it to become a Groovy m
 The latter takes up more space, but it is also human-readable.
 
 
-{% include file="examples/groovy/create_json.groovy" %}
+```groovy
+{{#include examples/groovy/create_json.groovy }}
+```
 
 In the output you can see both the result of `toString` and the result of `prettyPrint`.
 
-{% include file="examples/groovy/create_json.txt" %}
+```
+{{#include examples/groovy/create_json.txt }}
+```
 
 
 ## Read JSON from file
 
-{% include file="examples/groovy/read_json.groovy" %}
+```groovy
+{{#include examples/groovy/read_json.groovy }}
+```
 
 The `parse` method accepts a File object, reads in the content of the file and then parses it.
 
@@ -56,9 +52,17 @@ The `parse` method accepts a File object, reads in the content of the file and t
 In order to write a JSON file, you need to create the JSON string (either as a plain string or as a beautified string)
 and then use the File class to save it.
 
-{% include file="examples/groovy/write_json.groovy" %}
+```groovy
+{{#include examples/groovy/write_json.groovy }}
+```
 
 ## More JSON
 
 [Groovy JSON module](http://groovy-lang.org/json.html)
+
+timestamp: 2018-08-02T08:30:01
+tags:
+  - JSON
+  - JsonSlurper
+  - parseText
 

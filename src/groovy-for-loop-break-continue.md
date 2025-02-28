@@ -1,19 +1,9 @@
----
-title: "Groovy: for loop - break - continue"
-timestamp: 2019-02-21T21:30:01
-tags:
-  - for
-  - break
-  - continue
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
+# Groovy: for loop - break - continue
 
 
-{% include file="examples/groovy/for_loop.gvy" %}
+```groovy
+{{#include examples/groovy/for_loop.gvy }}
+```
 
 ```
 0
@@ -23,4 +13,10 @@ archive: true
 6
 7
 ```
+
+timestamp: 2019-02-21T21:30:01
+tags:
+  - for
+  - break
+  - continue
 

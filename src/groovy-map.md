@@ -1,25 +1,9 @@
----
-title: "Groovy map (dictionary, hash, associative array)"
-timestamp: 2018-07-31T22:30:01
-tags:
-  - map
-  - containsKey
-  - key
-  - value
-  - keySet
-  - values
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
-
+# Groovy map (dictionary, hash, associative array)
 
 
 ## Groovy map access elements
 
-```
+```groovy
 g = [:]       // create map
 println(g)
 
@@ -32,11 +16,15 @@ println(g)
 ```
 
 
-{% include file="examples/groovy/elements_of_map.groovy" %}
+```groovy
+{{#include examples/groovy/elements_of_map.groovy }}
+```
 
 ## Get all the keys ina Groovy map
 
-{% include file="examples/groovy/keys_of_map.groovy" %}
+```groovy
+{{#include examples/groovy/keys_of_map.groovy }}
+```
 
 ```
 red
@@ -50,16 +38,31 @@ blue
 
 ## Sorted keys of a Groovy map
 
-{% include file="examples/groovy/sorted_keys_of_map.groovy" %}
+```groovy
+{{#include examples/groovy/sorted_keys_of_map.groovy }}
+```
 
 ## Values of a Groovy map
 
-{% include file="examples/groovy/sorted_keys_of_map.groovy" %}
-
+```groovy
+{{#include examples/groovy/sorted_keys_of_map.groovy }}
+```
 
 ## Return map from a function
 
-{% include file="examples/groovy/return_map.gvy" %}
-
+```groovy
+{{#include examples/groovy/return_map.gvy }}
+```
 
 See also [maps](http://groovy-lang.org/syntax.html#_maps)
+
+
+timestamp: 2018-07-31T22:30:01
+tags:
+  - map
+  - containsKey
+  - key
+  - value
+  - keySet
+  - values
+

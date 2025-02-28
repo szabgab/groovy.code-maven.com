@@ -1,18 +1,19 @@
----
-title: "Groovy - Regular Expressions - regexes"
+# Groovy - Regular Expressions - regexes
+
+
+```groovy
+{{#include examples/groovy/match_number.groovy }}
+```
+
+```groovy
+{{#include examples/groovy/match_basename.groovy }}
+```
+
+```groovy
+{{#include examples/groovy/regex.groovy }}
+```
+
 timestamp: 2018-07-31T10:30:01
 tags:
   - Groovy
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
 
-
-{% include file="examples/groovy/match_number.groovy" %}
-
-{% include file="examples/groovy/match_basename.groovy" %}
-
-{% include file="examples/groovy/regex.groovy" %}
