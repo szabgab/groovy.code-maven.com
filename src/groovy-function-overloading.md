@@ -1,18 +1,8 @@
----
-title: "Groovy function overloading"
-timestamp: 2019-04-09T14:30:01
-tags:
-  - def
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
+# Groovy function overloading
 
 
-The primary tool for [code reuse in Groovy](/groovy-code-reuse) is the possibility to
-[defined and call functions](/groovy-functions).
+The primary tool for [code reuse in Groovy](./groovy-code-reuse.md) is the possibility to
+[defined and call functions](./groovy-functions.md).
 
 We have already seen that we need to tell Groovy how many parameter a function expects and we
 can even ask Groovy to verify the type of the parameters.
@@ -38,7 +28,9 @@ The number of times the user can try is set by the second parameter.
 In our example we also have a second definition of the `prompt` function that only expects a string.
 It then calls the same name again (`prompt` passing to it the receives text and the number 3.
 
-{% include file="examples/groovy/prompt.groovy" %}
+```groovy
+{{#include examples/groovy/prompt.groovy }}
+```
 
 If we call `prompt` with a text and a number, the first version will be executed.
 
@@ -53,5 +45,12 @@ of arguments. Then we call the function and we can see Groovy calls the right im
 The order of the definition is not important, you could put the general case earlier as well, but it seems to
 be clearer to me to first have the special cases declared and only later the more generic ones.
 
-{% include file="examples/groovy/add_functions.groovy" %}
+```groovy
+{{#include examples/groovy/add_functions.groovy }}
+```
+
+
+timestamp: 2019-04-09T14:30:01
+tags:
+  - def
 

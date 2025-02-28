@@ -1,22 +1,16 @@
----
-title: "Groovy: evaluate code in another file"
-timestamp: 2019-04-09T11:30:01
-tags:
-  - evaluate
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
+# Groovy: evaluate code in another file
 
 
-Another option in [code reuse in Groovy](/groovy-code-reuse).
+Another option in [code reuse in Groovy](./groovy-code-reuse.md).
 
 
-{% include file="examples/groovy/c/main.groovy" %}
+```groovy
+{{#include examples/groovy/c/main.groovy }}
+```
 
-{% include file="examples/groovy/c/tools.groovy" %}
+```groovy
+{{#include examples/groovy/c/tools.groovy }}
+```
 
 When we run `groovy main.groovy`
 
@@ -41,3 +35,9 @@ groovy.lang.MissingMethodException: No signature of method: main.hi() is applica
 Possible solutions: is(java.lang.Object), wait(), run(), run(), any(), find()
 	at main.run(main.groovy:9)
 ```
+
+
+timestamp: 2019-04-09T11:30:01
+tags:
+  - evaluate
+

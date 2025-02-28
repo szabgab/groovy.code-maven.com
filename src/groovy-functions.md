@@ -1,26 +1,16 @@
----
-title: "Groovy functions"
-timestamp: 2019-04-08T20:10:01
-tags:
-  - Groovy
-  - def
-  - Integer
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
+# Groovy functions
 
 
-Functions are probably the most basic tools for [code reuse in Groovy](/groovy-code-reuse).
+Functions are probably the most basic tools for [code reuse in Groovy](./groovy-code-reuse.md).
 
 
 ## Hello World in a function
 
 The `def` keyword allows use to define a function that we can use in the code.
 
-{% include file="examples/groovy/hello_world_function.groovy" %}
+```groovy
+{{#include examples/groovy/hello_world_function.groovy }}
+```
 
 After the `def` keyword we provide the name of the function and then in parentheses the list
 of expected parameters. In our first example there are no parameters.
@@ -39,7 +29,9 @@ main body of your code. That will probably help keeping the code clean.
 In this example we created a function that was designed to add two numbers and return the result.
 We can call it with exactly two numbers and it will return the sum.
 
-{% include file="examples/groovy/add_function.groovy" %}
+```groovy
+{{#include examples/groovy/add_function.groovy }}
+```
 
 If we call it with only one parameter we'll get the following exception:
 
@@ -74,7 +66,9 @@ If this is the behavior you hoped for then it is great.
 In Groovy you can use the [Groovy types](/groovy-types) to specify what kind of values a function is expected
 to receive. For example here we declare that our `add` function is expecting two <b>Integer</b> values.
 
-{% include file="examples/groovy/add_integers.groovy" %}
+```groovy
+{{#include examples/groovy/add_integers.groovy }}
+```
 
 If we call it with two integers we get the correct answer. However if we try to pass a string, Groovy will give us an
 exception like this:
@@ -87,4 +81,9 @@ Possible solutions: add(java.lang.Integer, java.lang.Integer), any(), wait(), ru
 	at add_integers.run(add_integers.groovy:8)
 ```
 
+timestamp: 2019-04-08T20:10:01
+tags:
+  - Groovy
+  - def
+  - Integer
 
