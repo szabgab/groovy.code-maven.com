@@ -1,18 +1,4 @@
----
-title: "Groovy value types"
-timestamp: 2018-05-27T08:30:01
-tags:
-  - boolean
-  - int
-  - byte
-  - Integer
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
-
+# Groovy value types
 
 The literal values in Groovy are similar to those in Java, but Groovy allows for generic variables that can hold any
 type and provides no enforcement and it allows you to declare variables with types and then enforce the type.
@@ -22,11 +8,15 @@ type and provides no enforcement and it allows you to declare variables with typ
 
 Declaring a varable using `def` allows for the flexibility most dynamic programming languges provide.
 
-{% include file="examples/groovy/variable_types_def.groovy" %}
+```groovy
+{{#include examples/groovy/variable_types_def.groovy }}
+```
 
 ## Declare variable as Integer
 
-{% include file="examples/groovy/variable_types_integer.groovy" %}
+```groovy
+{{#include examples/groovy/variable_types_integer.groovy }}
+```
 
 If we declare a variable to be `Integer` it provides automatic casting from other numbers, but does not allow
 the assignment of other types. For example it will throw the following exception if we try to assign a string or a list:
@@ -39,7 +29,9 @@ org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object
 
 ## byte
 
-{% include file="examples/groovy/variable_types_byte.groovy" %}
+```groovy
+{{#include examples/groovy/variable_types_byte.groovy }}
+```
 
 ## Numbers
 
@@ -69,7 +61,9 @@ We can declare a variable as `boolean` and then it can only hold `true` or `fals
 but we can assign any type of value to it and it will be automatically converted to either
 `true` or `false`.
 
-{% include file="examples/groovy/variable_types_boolean.groovy" %}
+```groovy
+{{#include examples/groovy/variable_types_boolean.groovy }}
+```
 
 [Groovy Truth](http://docs.groovy-lang.org/latest/html/documentation/core-semantics.html#Groovy-Truth) provides the details of the coercion to boolean values.
 
@@ -83,4 +77,10 @@ See the [Groovy syntax](http://groovy-lang.org/syntax.html) for more details.
 
 boolean b = ""; returns false; however not b = "" even with prior declaration and assignment of b as boolean b = false per se within groovysh shell command prompt
 
+timestamp: 2018-05-27T08:30:01
+tags:
+  - boolean
+  - int
+  - byte
+  - Integer
 

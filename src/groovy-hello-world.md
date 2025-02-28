@@ -1,15 +1,4 @@
----
-title: "Hello World in Groovy"
-timestamp: 2018-05-01T07:30:01
-tags:
-  - print
-  - println
-published: true
-books:
-  - groovy
-author: szabgab
-archive: true
----
+# Hello World in Groovy
 
 
 ## Install Groovy
@@ -39,15 +28,23 @@ Unlike in Java there is not need for a lot of cermony. You can use the `print` f
 print a string to the screen. You can include `\n` to embed a newline character.
 There is no need for semi-colon `;` at the end of the statement.
 
-{% include file="examples/groovy/hello_world.groovy" %}
+```groovy
+{{#include examples/groovy/hello_world.groovy }}
+```
 
-<pre>
+```
 $ groovy hello_world.groovy
-</pre>
+```
 
 Alternatively you can use the `println` function that will automatically
 append a newline to the end of the output.
 
-{% include file="examples/groovy/hello_world_with_newline.groovy" %}
+```groovy
+{{#include examples/groovy/hello_world_with_newline.groovy }}
+```
 
 
+timestamp: 2018-05-01T07:30:01
+
+  - print
+  - println
