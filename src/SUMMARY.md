@@ -52,3 +52,14 @@
   - [Groovy iterate over map keys](./groovy-iterate-over-map-keys.md)
   - [Groovy get the list of keys of a map as an ArrayList](./groovy-map-keys-as-arraylist.md)
 
+- [Slides](./slides/index.md)
+  - [Why Groovy?](./slides/why-groovy.md)
+  - [Groovy Resources](./slides/groovy-resources.md)
+  - [Install Groovy](./slides/install-groovy.md)
+  - [Hello World in Groovy](./slides/hello-world.md)
+  - [I/O](./slides/io.md)
+  - [Variables](./slides/variables.md)
+  - [Functions](./slides/functions.md)
+  - [Scope in Groovy](./slides/scope-in-groovy.md)
+
+
