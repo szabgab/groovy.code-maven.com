@@ -4,10 +4,7 @@
 Unlike the "strongly typed" languges, Groovy does not check the existance of all the variables at compile time.
 This can lead to run-time exceptions such as `groovy.lang.MissingPropertyException`
 
-
-```groovy
-{{#include examples/groovy/undeclared_variable.groovy }}
-```
+{% embed include file="examples/groovy/undeclared_variable.groovy" %}
 
 In this script we declare and use a variable called `val`, but in one point,
 in the second `if`-statement, we used the variable name `value`. Presumably by mistake.

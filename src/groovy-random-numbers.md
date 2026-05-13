@@ -11,15 +11,11 @@ class provided by Java.
 The `random` method will generate a floating point number between 0 and 1.
 (0 included 1 excluded).
 
-```groovy
-{{#include examples/groovy/random_float.gvy }}
-```
+{% embed include file="examples/groovy/random_float.gvy" %}
 
 ## Random integers
 
-```groovy
-{{#include examples/groovy/random_integers.gvy }}
-```
+{% embed include file="examples/groovy/random_integers.gvy" %}
 
 In the next example we have a list of one-letter strings and we would like to
 pick one of the elements randomly. So we need an integer between 0 and the size of the
@@ -27,9 +23,7 @@ array.
 
 We run it in a loop so we can see more values picked.
 
-```groovy
-{{#include examples/groovy/random_selection.gvy }}
-```
+{% embed include file="examples/groovy/random_selection.gvy" %}
 
 timestamp: 2018-09-14T11:00:01
 tags:

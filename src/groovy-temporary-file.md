@@ -1,13 +1,9 @@
 # Groovy: temporary file with autodelete
 
 
-```groovy
-{{#include examples/groovy/temp_file.gvy }}
-```
+{% embed include file="examples/groovy/temp_file.gvy" %}
 
-```groovy
-{{#include examples/groovy/temp_file_oop.gvy }}
-```
+{% embed include file="examples/groovy/temp_file_oop.gvy" %}
 
 ## Comments
 

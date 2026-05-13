@@ -6,9 +6,7 @@ Using a regular expression in Groovy to remove all the spaces from a string.
 Remove all the spaces from a string. It is like trim, trim-left, and trim-right together.
 
 
-```groovy
-{{#include examples/groovy/remove_spaces.gvy }}
-```
+{% embed include file="examples/groovy/remove_spaces.gvy" %}
 
 ```
 $ groovy remove_spaces.gvy
@@ -20,9 +18,7 @@ $ groovy remove_spaces.gvy
 
 ## Without the need to doubl-escape using ~//
 
-```groovy
-{{#include examples/groovy/remove_spaces_no_escape.gvy }}
-```
+{% embed include file="examples/groovy/remove_spaces_no_escape.gvy" %}
 
 ```
 groovy remove_spaces_no_escape.gvy

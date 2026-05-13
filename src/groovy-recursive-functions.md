@@ -25,8 +25,7 @@ n!     = n * (n-1)!
 In a similar fashion we can implement the calculation of <b>n!</b> in both ways. The second way is called recursive
 definition and it is implemented with recursive function calls:
 
-```groovy
-{{#include examples/groovy/factorial.groovy }}
+{% embed include file="examples/groovy/factorial.groovy" %}
 
 What we must not forget is that we need to check for the stop-condition (the n == 1) before the recursive call.
 
@@ -42,8 +41,7 @@ f(n)        f(n-1) + f(n-2)
 
 It can be implemented in this way:
 
-```groovy
-{{#include examples/groovy/fibonacci.groovy }}
+{% embed include file="examples/groovy/fibonacci.groovy" %}
 
 ## Recursive
 
@@ -51,27 +49,17 @@ For this example we have created an imaginary tree-structure. A dependency tree.
 
 We start with the "main" file:
 
-```
-{{#include examples/data/dependencies/main.txt }}
-```
+{% embed include file="examples/data/dependencies/main.txt" %}
 
-```
-{{#include examples/data/dependencies/a.txt }}
-```
+{% embed include file="examples/data/dependencies/a.txt" %}
 
-```
-{{#include examples/data/dependencies/b.txt }}
-```
+{% embed include file="examples/data/dependencies/b.txt" %}
 
-```
-{{#include examples/data/dependencies/e.txt }}
-```
+{% embed include file="examples/data/dependencies/e.txt" %}
 
 The script to traverse the tree in a recursive fashion is this:
 
-```groovy
-{{#include examples/groovy/list_dependencies_recursive.groovy }}
-```
+{% embed include file="examples/groovy/list_dependencies_recursive.groovy" %}
 
 timestamp: 2019-04-16T16:30:01
 tags:
