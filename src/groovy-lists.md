@@ -8,9 +8,7 @@ By default it is of type [ArrayList](https://docs.oracle.com/javase/7/docs/api/j
 though you can create a list of type [LinkedList](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) as well.
 
 
-```groovy
-{{#include examples/groovy/lists.groovy }}
-```
+{% embed include file="examples/groovy/lists.groovy" %}
 
 There are several ways to iterate over the elements of a list.
 
@@ -37,9 +35,7 @@ Read more about [lists in Groovy](http://groovy-lang.org/syntax.html#_lists).
 
 The `count` method will count how many times a values appears in a list. It can be used to check if the values is in the list at all.
 
-```groovy
-{{#include examples/groovy/element_in_list.groovy }}
-```
+{% embed include file="examples/groovy/element_in_list.groovy" %}
 
 timestamp: 2018-06-01T09:00:01
 tags:

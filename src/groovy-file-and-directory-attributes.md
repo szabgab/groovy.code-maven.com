@@ -1,9 +1,7 @@
 # Groovy file and directory attributes
 
 
-```groovy
-{{#include examples/groovy/file.groovy }}
-```
+{% embed include file="examples/groovy/file.groovy" %}
 
 See also [File](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)
 

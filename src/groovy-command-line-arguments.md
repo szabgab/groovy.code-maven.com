@@ -1,9 +1,7 @@
 # Groovy command line arguments (args)
 
 
-```groovy
-{{#include examples/groovy/cli.groovy }}
-```
+{% embed include file="examples/groovy/cli.groovy" %}
 
 
 Run as `groovy  cli.groovy hello world "hello world"` to see how this works.

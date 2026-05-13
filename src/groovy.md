@@ -56,7 +56,7 @@ Oh and you can also grab my [Groovy book](https://leanpub.com/groovy-book/).
 * [Groovy system properties](./groovy-system-properties.md)
 * [Groovy path to current executable script](./groovy-path-to-current-script.md)
 * [Exception handling](./groovy-exception-handling.md) (try, catch, Exception)
-* [Throw (raise.md) exception](./groovy-throw-exception)<li>
+* [Throw (raise.md) exception](./groovy-throw-exception)
 * [Casting](./groovy-casting.md) Integer, String, ...
 * [Printing Unicode characters from Groovy](./groovy-unicode.md)
 * [Import standard libraries](./groovy-import-standard-libraries.md)
@@ -74,16 +74,12 @@ Oh and you can also grab my [Groovy book](https://leanpub.com/groovy-book/).
 * [Learn X in Y minutes Where X=Groovy](https://learnxinyminutes.com/docs/groovy/)
 * [Documentation of Groovy](http://docs.groovy-lang.org/)
 
-```groovy
-{{#include examples/groovy/enum_planets.groovy }}
-```
+{% embed include file="examples/groovy/enum_planets.groovy" %}
 
 
 ## Elapsed time
 
-```groovy
-{{#include examples/groovy/elapsed_time.groovy }}
-```
+{% embed include file="examples/groovy/elapsed_time.groovy" %}
 
 ## Groovy regex
 

@@ -4,9 +4,7 @@
 [Number Guessing game exercise](/exercise-number-guessing-game)
 
 
-```groovy
-{{#include examples/groovy/number_guessing_game.groovy }}
-```
+{% embed include file="examples/groovy/number_guessing_game.groovy" %}
 
 timestamp: 2018-05-27T10:00:01
 tags:

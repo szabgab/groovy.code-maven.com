@@ -28,9 +28,7 @@ Unlike in Java there is not need for a lot of cermony. You can use the `print` f
 print a string to the screen. You can include `\n` to embed a newline character.
 There is no need for semi-colon `;` at the end of the statement.
 
-```groovy
-{{#include examples/groovy/hello_world.groovy }}
-```
+{% embed include file="examples/groovy/hello_world.groovy" %}
 
 ```
 $ groovy hello_world.groovy
@@ -39,9 +37,7 @@ $ groovy hello_world.groovy
 Alternatively you can use the `println` function that will automatically
 append a newline to the end of the output.
 
-```groovy
-{{#include examples/groovy/hello_world_with_newline.groovy }}
-```
+{% embed include file="examples/groovy/hello_world_with_newline.groovy" %}
 
 
 timestamp: 2018-05-01T07:30:01

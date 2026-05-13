@@ -8,9 +8,7 @@ Creating an object called `obj` of type [java.util.ArrayList](https://docs.oracl
 `getClass` returns the exact type of an object.
 
 
-```groovy
-{{#include examples/groovy/check_type.groovy }}
-```
+{% embed include file="examples/groovy/check_type.groovy" %}
 
 timestamp: 2018-06-01T07:30:01
 tags:

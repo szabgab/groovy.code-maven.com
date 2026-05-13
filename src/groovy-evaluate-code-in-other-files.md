@@ -4,13 +4,9 @@
 Another option in [code reuse in Groovy](./groovy-code-reuse.md).
 
 
-```groovy
-{{#include examples/groovy/c/main.groovy }}
-```
+{% embed include file="examples/groovy/c/main.groovy" %}
 
-```groovy
-{{#include examples/groovy/c/tools.groovy }}
-```
+{% embed include file="examples/groovy/c/tools.groovy" %}
 
 When we run `groovy main.groovy`
 

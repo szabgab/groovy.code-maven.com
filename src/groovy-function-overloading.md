@@ -28,9 +28,7 @@ The number of times the user can try is set by the second parameter.
 In our example we also have a second definition of the `prompt` function that only expects a string.
 It then calls the same name again (`prompt` passing to it the receives text and the number 3.
 
-```groovy
-{{#include examples/groovy/prompt.groovy }}
-```
+{% embed include file="examples/groovy/prompt.groovy" %}
 
 If we call `prompt` with a text and a number, the first version will be executed.
 
@@ -45,9 +43,7 @@ of arguments. Then we call the function and we can see Groovy calls the right im
 The order of the definition is not important, you could put the general case earlier as well, but it seems to
 be clearer to me to first have the special cases declared and only later the more generic ones.
 
-```groovy
-{{#include examples/groovy/add_functions.groovy }}
-```
+{% embed include file="examples/groovy/add_functions.groovy" %}
 
 
 timestamp: 2019-04-09T14:30:01

@@ -1,9 +1,7 @@
 # Groovy exit - System.exit - early exit from Groovy script
 
 
-```groovy
-{{#include examples/groovy/early_exit.groovy }}
-```
+{% embed include file="examples/groovy/early_exit.groovy" %}
 
 
 ```

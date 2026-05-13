@@ -1,9 +1,7 @@
 # Groovy: for loop - break - continue
 
 
-```groovy
-{{#include examples/groovy/for_loop.gvy }}
-```
+{% embed include file="examples/groovy/for_loop.gvy" %}
 
 ```
 0

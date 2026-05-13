@@ -3,25 +3,19 @@
 
 ## Import and use XML parsing
 
-```groovy
-{{#include examples/groovy/process_xml.groovy }}
-```
+{% embed include file="examples/groovy/process_xml.groovy" %}
 
 ## Date
 
 Some classes are imported by default
 
-```groovy
-{{#include examples/groovy/date.groovy }}
-```
+{% embed include file="examples/groovy/date.groovy" %}
 
 See more examples with [Groovy Date](/groovy-date-time).
 
 ## TRUE and FALSE
 
-```groovy
-{{#include examples/groovy/bool.groovy }}
-```
+{% embed include file="examples/groovy/bool.groovy" %}
 
 Check this out also on the [Groovy page about structure](http://groovy-lang.org/structure.html)
 

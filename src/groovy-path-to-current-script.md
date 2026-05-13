@@ -1,9 +1,7 @@
 # Groovy path to current executable script
 
 
-```groovy
-{{#include examples/groovy/current_script.groovy }}
-```
+{% embed include file="examples/groovy/current_script.groovy" %}
 
 This will print the full path to the current Groovy script.
 

@@ -8,13 +8,9 @@ The function `sprintf` can be used to format a string for later use.
 
 A few examples:
 
-```groovy
-{{#include examples/groovy/printf.groovy }}
-```
+{% embed include file="examples/groovy/printf.groovy" %}
 
-```groovy
-{{#include examples/groovy/printf_width.groovy }}
-```
+{% embed include file="examples/groovy/printf_width.groovy" %}
 
 timestamp: 2019-04-20T09:30:01
 tags:

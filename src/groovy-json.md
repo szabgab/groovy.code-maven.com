@@ -16,9 +16,7 @@ to parse JSON strings.
 
 If we have JSON string in a Groovy variable we can parse it to become a Groovy map:
 
-```groovy
-{{#include examples/groovy/parsing_json.groovy }}
-```
+{% embed include file="examples/groovy/parsing_json.groovy" %}
 
 ## Creating JSON string
 
@@ -27,22 +25,16 @@ If we have JSON string in a Groovy variable we can parse it to become a Groovy m
 The latter takes up more space, but it is also human-readable.
 
 
-```groovy
-{{#include examples/groovy/create_json.groovy }}
-```
+{% embed include file="examples/groovy/create_json.groovy" %}
 
 In the output you can see both the result of `toString` and the result of `prettyPrint`.
 
-```
-{{#include examples/groovy/create_json.txt }}
-```
+{% embed include file="examples/groovy/create_json.txt" %}
 
 
 ## Read JSON from file
 
-```groovy
-{{#include examples/groovy/read_json.groovy }}
-```
+{% embed include file="examples/groovy/read_json.groovy" %}
 
 The `parse` method accepts a File object, reads in the content of the file and then parses it.
 
@@ -52,9 +44,7 @@ The `parse` method accepts a File object, reads in the content of the file and t
 In order to write a JSON file, you need to create the JSON string (either as a plain string or as a beautified string)
 and then use the File class to save it.
 
-```groovy
-{{#include examples/groovy/write_json.groovy }}
-```
+{% embed include file="examples/groovy/write_json.groovy" %}
 
 ## More JSON
 

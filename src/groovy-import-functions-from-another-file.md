@@ -12,15 +12,11 @@ In these examples we see how to do that with simple functions and methods of cla
 
 In this example we have a very simple "library" file with a simple function:
 
-```groovy
-{{#include examples/groovy/function_tools.gvy }}
-```
+{% embed include file="examples/groovy/function_tools.gvy" %}
 
 Next to it there is another file in which we load the former file into memory and then call it.
 
-```groovy
-{{#include examples/groovy/function_script.gvy }}
-```
+{% embed include file="examples/groovy/function_script.gvy" %}
 
 We can then run
 
@@ -34,38 +30,26 @@ In the code we gave the path to the library so in this version it needs to be ne
 
 This is the class:
 
-```groovy
-{{#include examples/groovy/class_tools.gvy }}
-```
+{% embed include file="examples/groovy/class_tools.gvy" %}
 
 This is the script:
 
-```groovy
-{{#include examples/groovy/class_script.gvy }}
-```
+{% embed include file="examples/groovy/class_script.gvy" %}
 
 ## Importing class methods
 
 
-```groovy
-{{#include examples/groovy/a/main.groovy }}
-```
+{% embed include file="examples/groovy/a/main.groovy" %}
 
-```groovy
-{{#include examples/groovy/a/tools.groovy }}
-```
+{% embed include file="examples/groovy/a/tools.groovy" %}
 
 
 ## Import class from a subdirectory
 
 
-```groovy
-{{#include examples/groovy/b/main.groovy }}
-```
+{% embed include file="examples/groovy/b/main.groovy" %}
 
-```groovy
-{{#include examples/groovy/b/tools/other.groovy }}
-```
+{% embed include file="examples/groovy/b/tools/other.groovy" %}
 
 
 ## Import static methods from a class
@@ -73,23 +57,15 @@ This is the script:
 This is probably the version most similar to importing individual functions.
 
 
-```groovy
-{{#include examples/groovy/d/main.groovy }}
-```
+{% embed include file="examples/groovy/d/main.groovy" %}
 
-```groovy
-{{#include examples/groovy/d/tools.groovy }}
-```
+{% embed include file="examples/groovy/d/tools.groovy" %}
 
 ## Import static methods from a class from a subdirectory
 
-```groovy
-{{#include examples/groovy/e/main.groovy }}
-```
+{% embed include file="examples/groovy/e/main.groovy" %}
 
-```groovy
-{{#include examples/groovy/e/some/other/Tools.groovy }}
-```
+{% embed include file="examples/groovy/e/some/other/Tools.groovy" %}
 
 timestamp: 2018-09-13T20:30:01
 tags:

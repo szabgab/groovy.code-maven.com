@@ -3,15 +3,11 @@
 
 In the [count digit exercise](/exercise-count-digits) we need to take a file like this:
 
-```
-{{#include examples/data/count_digits.txt }}
-```
+{% embed include file="examples/data/count_digits.txt" %}
 and count how many times each digit appears.
 
 
-```groovy
-{{#include examples/groovy/count_digits.groovy }}
-```
+{% embed include file="examples/groovy/count_digits.groovy" %}
 
 The expression in the first line creates a list of 10 values of 0.
 

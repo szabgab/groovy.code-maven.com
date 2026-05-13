@@ -1,9 +1,7 @@
 # Groovy Exception handling (try, catch, Exception)
 
 
-```groovy
-{{#include examples/groovy/divide.groovy }}
-```
+{% embed include file="examples/groovy/divide.groovy" %}
 
 It works well if the division work well, but:
 
@@ -19,9 +17,7 @@ java.lang.ArithmeticException: Division by zero
 
 We can use `try` and `catch` to catch the exception:
 
-```groovy
-{{#include examples/groovy/catch_exception.groovy }}
-```
+{% embed include file="examples/groovy/catch_exception.groovy" %}
 
 timestamp: 2019-04-21T15:30:01
 tags:

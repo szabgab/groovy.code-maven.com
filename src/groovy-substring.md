@@ -9,9 +9,7 @@ The indexing is 0 based so `STRING.substring(0,3)` means the first 3 characters.
 and `STRING.substring(4,7)` means the charcter number, 5,6, and 7. (index 4,  5, and 6).
 
 
-```groovy
-{{#include examples/groovy/substring.gvy }}
-```
+{% embed include file="examples/groovy/substring.gvy" %}
 
 timestamp: 2019-02-15T23:32:01
 tags:

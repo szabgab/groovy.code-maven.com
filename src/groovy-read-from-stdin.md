@@ -16,17 +16,13 @@ Reading from the Standard Input, normally the keyboard, is also quite easy.
 `println` only takes one argument, so instead of passing a list of values we use the `+`
 operator to concatenate the values.
 
-```groovy
-{{#include examples/groovy/input_from_stdin.groovy }}
-```
+{% embed include file="examples/groovy/input_from_stdin.groovy" %}
 
 ## Read from Console in Groovy
 
 A shorter alternative is to use the [Console](https://docs.oracle.com/javase/7/docs/api/java/io/Console.html) object, but rumors say that it might not work inside an IDE. It works when running in the terminal.
 
-```groovy
-{{#include examples/groovy/input_from_console.groovy }}
-```
+{% embed include file="examples/groovy/input_from_console.groovy" %}
 
 ## Converting string to Integer
 
@@ -39,9 +35,7 @@ That's what "as Integer" is for in the next example:
 
 See the [rectangular exercise](/exercise-rectangular).
 
-```groovy
-{{#include examples/groovy/rectangular.groovy }}
-```
+{% embed include file="examples/groovy/rectangular.groovy" %}
 
 timestamp: 2018-05-27T09:00:01
 tags:
